@@ -5,7 +5,7 @@ html, body {
 	height: 100%;
 }
 
-#top-header {
+#top-header .top-nav {
 	display: block;
 	width: auto;
 	max-height: 80em;
