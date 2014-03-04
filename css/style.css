@@ -45,6 +45,7 @@ html, body {
 
 .column #main {
 	width: 60%;
+	float: left;
 }
 #main h2 {
 	font-family: Georgia;
