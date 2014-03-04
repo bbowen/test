@@ -39,6 +39,7 @@ html, body {
 	float: left;
 	display: block;
 	max-width: 60em;
+	margin:0 auto;
 	max-height: auto;
 	background-color: #9f9;
 	clear: both;
