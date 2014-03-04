@@ -4,6 +4,9 @@ html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acron
 html, body {
 	height: 100%;
 }
+.float_left {
+	float: left;
+}
 
 .top-nav {
 	float: right;
