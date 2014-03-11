@@ -10,8 +10,10 @@
 				<img class="float_left" src="image/rottie.jpg">
 				<p class="float_left">Rottie Puppy Page</p>
 				<nav class="top-nav">
-					<ul>
- 						<li><a href="index.html" class="current">Home</a></li>
+					<a class= "menu_button" href="#footer_nav" onclick="toggleNav (); return false;">&#9776; MENU</a>
+
+					<ul id="navigation_list">
+ 						<li><a href="index.html">Home</a></li>
  						<li><a href="about.html">About</a></li>
  						<li><a href="contact.html">Contact</a></li>
  					</ul>
@@ -36,6 +38,21 @@
 				<footer>
 					<p><span class="super">&copy;</span>2014 Brett's Page</p>
 				</footer>
+
+<script >
+	var originalNavClasses;
+
+function toggleNav() {
+    var elem = document.getElementById('navigation_list');
+    var classes = elem.className;
+    if (originalNavClasses === undefined) {
+        originalNavClasses = classes;
+    }
+    elem.className = /expanded/.test(classes) ? originalNavClasses : originalNavClasses + ' expanded';
+}
+
+</script>
+
 	</body>
 </html>
 
